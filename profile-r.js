@@ -1,0 +1,1 @@
+document.getElementById("Body").addEventListener("load",AutoRefresh(10000),false);

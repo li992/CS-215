@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Creating New Blog</title>
+<link rel="stylesheet" type="text/css" href="BlogCSS.css"/>
+<script type="text/javascript" src="newBlog.js"></script>
+</head>
+
+<body>
+<div id="NBframework">
+	<strong>Write Your New Blog in the Box Below: </strong>
+	<form id="newBlog" style="width:80%;">
+		Title: <br/>
+		<input type="text" id="Title"  maxlength="70"/><br />
+		Blog: <br/>
+		<input type="text" id="Blog" maxlength="150"/><br/>
+		<span id="notice" style="font-size:70%;color:red;"></span><br/>
+		<a href="index.php"><input id="i5" type="button" value="Upload" onclick="tl()" ></a>
+		<a href="index.php"><input id="i6" type="button" value="Cancel" onclick="tl()"></a>
+	</form>
+	<script type = "text/javascript"  src = "newBlog-r.js" ></script>
+</div>
+</body>
+</html>

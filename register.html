@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register Page</title>
+<link rel="stylesheet" type="text/css" href="BlogCSS.css"/>
+<script type="text/javascript" src="signup_dom.js"> </script>   
+</head>
+
+<body>
+<div id="RGTframework">
+	<strong>Please enter the information shows below: </strong>
+	<form id="SignUp" method="post">
+	<table>
+		<tr><td>Username:			</td><td>	<input type="text" name="uname"/></td></tr>
+		<tr><td></td><td><label id="uname_msg" class="err_msg"></label></td></tr>
+		
+		<tr><td>E-mail:   			</td><td>   <input type="email" name="email"/></td></tr>
+		<tr><td></td><td><label id="email_msg" class="err_msg"></label></td></tr>
+		
+		<tr><td>Password: 			</td><td>   <input type="password" name="Pass"/></td></tr>
+		<tr><td></td><td><label id="pswd_msg" class="err_msg"></label></td></tr>
+		
+		<tr><td>Re-Enter Password:	</td><td> 	<input type="password" name="Passr"/></td></tr>
+		<tr><td></td><td><label id="pswdr_msg" class="err_msg"></label></td></tr>		
+		
+		<tr><td>Date of Birth: 	    </td><td> 	<input type="date" name="user_date" /></td></tr>
+		<tr><td>Upload an Image:	</td><td>  	<input type="image" name="profile"/></td></tr>
+	</table><br/>
+
+		<input id="i3" type="submit" value="Comfirm">
+		<a href="Login.html"><input id="i4" type="button" value="Cancel"></a>
+		<br /> <label id="info"></label>
+	</form>
+	
+	<script type = "text/javascript"  src = "SignUp-r.js" ></script>
+</div>
+</body>
+</html>
